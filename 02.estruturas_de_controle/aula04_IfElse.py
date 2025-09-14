@@ -8,3 +8,7 @@ elif (media < 7 and media >= 0):
 
 else:
     print("nota inválida")
+
+lista = ["pedra", "papel", "tesoura"]
+if ("borracha" not in lista):
+    print("nn")
