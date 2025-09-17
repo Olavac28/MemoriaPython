@@ -1,6 +1,6 @@
 media = (8 + 9) / 2
 
-if (media >= 7):
+if (media >= 7): #nn precisa de ()
     print("vc passou")
 
 elif (media < 7 and media >= 0):
