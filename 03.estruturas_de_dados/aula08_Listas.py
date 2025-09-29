@@ -15,11 +15,13 @@ print(max(lista)) #encontra o maior valor
 lista.append(7) #adiciona um valor à lista
 print(lista)
 
-lista.pop(-1) #remove um valor da lista
+lista.pop(-1) #remove um valor da lista com base no i
 print(lista)
 
 lista.insert(4, 4.5)
 print(lista)
+
+lista.remove(4.5) #remove o primeiro valor 4.5 da lista
 
 print(17 in lista) #verifica se existe o número na lista
 
